@@ -1,0 +1,39 @@
+# Dependencies and local editor files
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Credentials, private configuration and original hosting metadata
+.env
+.env.*
+.npmrc
+.netrc
+*.pem
+*.key
+*.p12
+*.pfx
+.openai/
+.codex/
+.agents/
+.aws/
+
+# User-created run exports and reports
+exports/
+private/
+apparel-retailer-run-*.json
+apparel-retailer-evaluation-*.csv
+apparel-retailer-qualitative-evidence.csv
+*.pdf
+*.docx
+
+# Local generated outputs; no saved runs belong in the public repository
+work/
+output/
+outputs/
+coverage/
+*.log
+*.zip
+*.tar
+*.tar.gz
